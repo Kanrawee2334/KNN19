@@ -5,16 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-import streamlit as st
-
-st.markdown("""
-    <h2 style="
-        background-color:#85C1E9;padding:15px; border-radius:15px; border:1px solid black; color:black;">
-        โปรเจคการจำแนกข้อมูลดอกไม้
-    </h2>
-""", unsafe_allow_html=True)
-
-st.image("./img/kanrawee.jpg ")
+st.header("โปรเจคการจำแนกข้อมูลดอกไม้")
+st.image("./img/kanrawee.jpg")
 
 #st.image("./img/kairung.jpg")
 col1, col2, col3 = st.columns(3)
