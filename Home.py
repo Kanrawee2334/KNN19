@@ -14,7 +14,7 @@ st.markdown("""
     </h2>
 """, unsafe_allow_html=True)
 
-st.image("./img/kanrawee.jpg padding:15px; border-radius:15px; border:1px solid black; color:black")
+st.image("./img/kanrawee.jpg ")
 
 #st.image("./img/kairung.jpg")
 col1, col2, col3 = st.columns(3)
