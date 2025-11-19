@@ -9,11 +9,7 @@ import streamlit as st
 
 st.markdown("""
     <h2 style="
-        background-color:#85C1E9;
-        padding:10px;
-        border-radius:10px;
-        color:black;
-        text-align:center;">
+        background-color:#85C1E9;padding:15px; border-radius:15px; border:1px solid black; color:black;">
         โปรเจคการจำแนกข้อมูลดอกไม้
     </h2>
 """, unsafe_allow_html=True)
