@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 st.header("Karawee")
 st.image("./img/kanrawee.jpg")
 
+st.header("โปรเจคการจำแนกข้อมูลดอกไม้")
 #st.image("./img/kairung.jpg")
 col1, col2, col3 = st.columns(3)
 
