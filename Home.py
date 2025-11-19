@@ -5,7 +5,19 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-st.header("โปรเจคการจำแนกข้อมูลดอกไม้")
+import streamlit as st
+
+st.markdown("""
+    <h2 style="
+        background-color:#85C1E9;
+        padding:10px;
+        border-radius:10px;
+        color:black;
+        text-align:center;">
+        โปรเจคการจำแนกข้อมูลดอกไม้
+    </h2>
+""", unsafe_allow_html=True)
+
 st.image("./img/kanrawee.jpg")
 
 #st.image("./img/kairung.jpg")
