@@ -81,6 +81,6 @@ if st.button("ทำนายผล"):
    elif out[0] == 'Versicolor':       
     st.image("./img/iris2.jpg")
    else:
-    st.image("./img/iris3.jpg")
+    st.image(".//iris3.jpg")
 else:
     st.write("ไม่ทำนาย")
