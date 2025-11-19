@@ -58,11 +58,11 @@ else:
 st.markdown(html_8, unsafe_allow_html=True)
 st.markdown("")
 
-pt_len = st.slider("กรุณาเลือกข้อมูล petal.length")
-pt_wd = st.slider("กรุณาเลือกข้อมูล petal.width")
+pt_len = st.slider("กรุณาเลือกข้อมูล petallength")
+pt_wd = st.slider("กรุณาเลือกข้อมูล petalwidth")
 
-sp_len = st.number_input("กรุณาเลือกข้อมูล sepal.length")
-sp_wd = st.number_input("กรุณาเลือกข้อมูล sepal.width")
+sp_len = st.number_input("กรุณาเลือกข้อมูล sepallength")
+sp_wd = st.number_input("กรุณาเลือกข้อมูล sepalwidth")
 
 if st.button("ทำนายผล"):
     #st.write("ทำนาย")
